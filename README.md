@@ -1,30 +1,10 @@
-# STARTER-jpa02
+# jpa02-ryanwenger
 
-* TODO: Change the title of this README 
-  in the text `# STARTER-jpa02` above
-  to match the name of your repo, i. e., `jpa02-yourgithubid`, then delete
-  this TODO item.
+Repo: https://github.com/ucsb-cs156-w22/jpa02-rawenger
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-w22/jpa02-cgaucho
+On Heroku: https://jpa02-ryanwenger.herokuapp.com
 
-Repo: https://ucsb-cs156-w22/STARTER-jpa02
-
-* TODO: Correct the links to app on Heroku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Heroku, e.g.
-  https://cs156-w22-jpa02-cgaucho.herokuapp.com
-
-
-On Heroku: https://cs156-w22-jpa02-cgaucho.herokuapp.com
-
-* TODO: Correct the links to codecov report below
-  then delete this TODO.  Replace it with 
-  a link to your codecov report.
-
-On Codecov: https://codecov.io/gh/ucsb-cs156-w22/jpa02-cgaucho
+On Codecov: https://codecov.io/gh/ucsb-cs156-w22/jpa02-rawenger
 
 
 # About this repo
@@ -43,7 +23,7 @@ This is a minimal "Hello World" type webapp built with Spring Boot.
 | `mvn package` | Builds the jar file `target/gs-spring-boot-0.1.0.jar` |
 | `mvn spring-boot:run` | Runs the code to startup a web server.  Access it via `http://localhost:8080` on the *same machine* where the server is running.  Use CTRL/C to stop it. |
 | `java -cp target/hello-1.0.0.jar edu.ucsb.cs156.spring.hello.Application` | If done after `mvn package`, runs the code to startup a web server.  |
-| `java -jar target/hello-1.0.0.jar | If done after `mvn package`, this is another way to start up the web server.|
+| `java -jar target/hello-1.0.0.jar` | If done after `mvn package`, this is another way to start up the web server.|
 
 
 # Sources
@@ -64,6 +44,7 @@ below.
 
 * Java 17 support
   * Converting `pom.xml` to use Java 17
+  * Converting `system.properties` to use Java 17
 * JUnit 5
   * Converting test code to use JUnit 5 instead of JUnit 4  
 * Heroku Support
